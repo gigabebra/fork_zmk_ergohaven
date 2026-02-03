@@ -85,10 +85,10 @@
             layers = <1>;
         };
 
-        quote {
+        quote_ru {
             bindings = <&en SQT>;
             key-positions = <5 6>;
-            layers = <1 7 6 0 2 3>;
+            layers = <1 7 6>;
         };
 
         to_en {
@@ -101,6 +101,12 @@
             bindings = <&layer_ru>;
             key-positions = <16 17>;
             layers = <0 2 3>;
+        };
+
+        quote_en {
+            bindings = <&kp SQT>;
+            key-positions = <5 6>;
+            layers = <0>;
         };
     };
 
